@@ -226,11 +226,11 @@ We have a small collection of algorithms, one for every day of the month. Scroll
 
 ### **December 8 - Cheating Probability**
   - **Problem**
-    - Given an RxC Matrix with its elements representing the branch being pursued by a student in the exam hall. Caluclate the probability of each student copying if a person from the same branch sits:
-    	-  In front = 0.3
-    	-  Behind = 0.2
-    	-  Sides = 0.2
-    	-  Diagonal = 0.1
+    - Given an RxC Matrix in with each element represents the Department of a student seated in that row and coloumn in an examination hall, write a code to calculate the probability of each student copying if a person from the same department sits:
+    	-  In front of him = 0.3
+    	-  Behind him = 0.2
+    	-  To his left or right = 0.2
+    	-  In any of his 4 closest diagonals = 0.025
   - **Example**
     - **Input**
        ``` 
@@ -239,8 +239,8 @@ We have a small collection of algorithms, one for every day of the month. Scroll
         ```
     - **Output**
         ```
-        0.0 0.3 0.2
-        0.3 0.5 0.3
+        0.0 0.225 0.2
+        0.225 0.5 0.3
         ```
     - <img src="https://img.buzzfeed.com/buzzfeed-static/static/2016-09/26/6/asset/buzzfeed-prod-web11/anigif_sub-buzz-5611-1474885869-2.gif" height=250/>
   - **Resources**
@@ -397,7 +397,22 @@ We have a small collection of algorithms, one for every day of the month. Scroll
     - [String in c++](https://www.w3schools.com/cpp/cpp_strings.asp)
     - [Strings in python](https://www.w3schools.com/python/python_strings.asp)
     - [Strings in java](https://www.javatpoint.com/java-string)
-   
+
+### **December ? - Intruder Alert**
+  - **Problem**  
+    - Rick Sanchez just discovered that someone from another planet has been intruding into his private planet use its resources.
+    - In order to lure that person in to humiliate him, Rick decides to send a dish as a gift. This dish has been cooked with a balance between its main ingredients: Animal A and Liquid B.
+    - If for every 1g of A 1ml of B has to be added, write a code that uses **Backtracking** to print the number of ways the ingredients can be added when the quantity of A needed is provided.
+  - **Example**
+    ```
+    Quantity of A(in grams): 2
+    Combinations: [AABB, ABAB]
+    Quantity of A(in grams): 3
+    Combinations: [AAABBB, AABABB,AABBAB,ABAABB,ABABAB]
+    ```
+  - **Resources**
+    - [Backtracking](https://www.javatpoint.com/backtracking-introduction)
+
 ## Maintainers
 - [K-Kraken](https://github.com/K-Kraken)
 - [jyuvaraj03](https://github.com/jyuvaraj03)
